@@ -14,19 +14,47 @@
 
 body{
     background-color: black;
+    flex-direction: column ;
+    justify-content: space-between;
 }
 
+/* HEADER */
 .header-container{
     justify-content: flex-end;
-    height: 10vh;
 }
 
 .header-container span{
     margin: 10px;
     padding: 5px;
-    background-color: rgb(71, 71, 71);
-    height: 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 28px;
     border-radius: 5px;
+}
+
+/* MAIN */
+.user span{
+    align-items: end;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+/* CLASSI COMUNI */
+.full-width{
+    width: 100vw;
+}
+
+.width-80{
+    width: 80vw;
+}
+
+.height-75{
+    height: 75vh;
+}
+
+.height-10{
+    height: 10vh;
+}
+
+.height-7{
+    height: 7vh;
 }
 
 .white{
