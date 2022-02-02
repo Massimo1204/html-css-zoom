@@ -4,13 +4,21 @@
     border: 0;
 }
 
+/* FLEX TAG */
 .flex-container{
     display: flex;
 }
 
-.flex-column{
+.flex-column-center{
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+.flex-center{
+    align-items: center;
+}
+
 
 body{
     background-color: black;
@@ -36,6 +44,9 @@ body{
     flex-wrap: wrap;
     overflow-y: scroll;
     margin: auto;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 7px;
 }
 
 .user{
@@ -52,25 +63,49 @@ body{
     padding: 7px;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* FOOTER */
+footer{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer i{
+    font-size: 2rem;
+}
+
+.fa-chevron-up{
+    font-size: 1rem;
+}
+
+footer div{
+    margin: 0 10px;
+
+}
+
 /* CLASSI COMUNI */
 .full-width{
-    width: 100vw;
+    width: 99vw;
+}
+
+.full-height{
+    height: 100vh;
 }
 
 .width-90{
     width: 90vw;
 }
 
-.height-75{
-    height: 75vh;
+.height-call{
+    height: calc(100vh - 160px);
 }
 
-.height-10{
-    height: 10vh;
+.height-100{
+    height: 100px;
 }
 
-.height-7{
-    height: 7vh;
+.height-60{
+    height: 60px;
 }
 
 .white{
