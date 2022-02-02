@@ -43,11 +43,11 @@ body{
 /* MAIN */
 .video-call-container{
     flex-wrap: wrap;
-    overflow-y: scroll;
     margin: auto;
     justify-content: center;
     flex-shrink: 0;
     gap: 7px;
+    overflow-y: scroll;
 }
 
 .user{
@@ -93,7 +93,7 @@ footer div{
 
 /* CLASSI COMUNI */
 .full-width{
-    width: 99vw;
+    width: 100vw;
 }
 
 .full-height{
@@ -125,5 +125,5 @@ footer div{
 }
 
 .red{
-    color:rgb(136, 39, 25);
+    color:rgb(251, 9, 34);
 }
