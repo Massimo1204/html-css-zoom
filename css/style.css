@@ -24,7 +24,7 @@ body{
 }
 
 .header-container span{
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.3);
     height: 28px;
@@ -32,17 +32,33 @@ body{
 }
 
 /* MAIN */
+.video-call-container{
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin: auto;
+}
+
+.user{
+    width: 300px;
+    height: 200px;
+    background-image: url("https://picsum.photos/200/300");
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .user span{
-    align-items: end;
-    background-color: rgba(255, 255, 255, 0.3);
+    height: 30px;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 /* CLASSI COMUNI */
 .full-width{
     width: 100vw;
 }
 
-.width-80{
-    width: 80vw;
+.width-90{
+    width: 90vw;
 }
 
 .height-75{
