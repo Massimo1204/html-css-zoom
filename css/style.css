@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+body{
+    background-color: black;
+}
+
+.header-container{
+    justify-content: flex-end;
+    height: 10vh;
+}
+
+.header-container span{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(71, 71, 71);
+    height: 25px;
+    border-radius: 5px;
+}
+
+.white{
+    color: white;
+}
